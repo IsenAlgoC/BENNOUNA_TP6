@@ -18,20 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\Squelette-v3.0\liste.h" />
-    <ClInclude Include="..\..\..\..\Downloads\Squelette-v3.0\personne.h" />
-    <ClInclude Include="..\..\..\..\Downloads\Squelette-v3.0\rep.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Squelette-v3.0\liste.c" />
-    <ClCompile Include="..\..\..\..\Downloads\Squelette-v3.0\outil.c" />
-    <ClCompile Include="..\..\..\..\Downloads\Squelette-v3.0\rep.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7e6ef632-cd7c-4d85-bdf9-6a58aa900188}</ProjectGuid>
+    <ProjectGuid>{9ad94ee0-00ae-4b8d-9da2-099868da8431}</ProjectGuid>
     <RootNamespace>TP6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -148,6 +138,16 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="liste.h" />
+    <ClInclude Include="personne.h" />
+    <ClInclude Include="rep.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="liste.c" />
+    <ClCompile Include="outil.c" />
+    <ClCompile Include="rep.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
